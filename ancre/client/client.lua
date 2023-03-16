@@ -12,7 +12,7 @@ Citizen.CreateThread(function()
 			if not anchored then
 				SetBoatAnchor(boat, true)
 				TaskStartScenarioInPlace(ped, 'CODE_HUMAN_MEDIC_TEND_TO_DEAD', 0, true)
-				Citizen.Wait(10000))
+				Citizen.Wait(10000)
 				ClearPedTasks(ped)
 			else
 				TaskStartScenarioInPlace(ped, 'CODE_HUMAN_MEDIC_TEND_TO_DEAD', 0, true)
